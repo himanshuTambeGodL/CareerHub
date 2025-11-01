@@ -44,7 +44,7 @@ export default function JobCard({ job }) {
         <motion.button
           onClick={handleBookmark}
           whileTap={{ scale: 1.4 }}
-          animate={{ scale: isBookmarked ? [1, 1.4, 1] : 1 }}
+          animate={{ scale: isBookmarked ? [1, 1.6, 1] : 1 }}
           transition={{ duration: 0.3 }}
           className={`absolute top-3 right-4 px-3 py-3 rounded-md text-sm font-medium transition-all duration-300 ease-in-out ${
             isBookmarked
